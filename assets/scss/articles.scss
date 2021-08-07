@@ -58,8 +58,8 @@
 
 .hero-heading{
     font-style: normal;
-    font-weight: 600;
-    font-size: 52px;
+    font-weight: 700;
+    font-size: 34px;
     font-family: var(--sanserif);
     line-height: 1.15;
     color: var(--primary);
@@ -67,13 +67,33 @@
   
     /*DESKTOP*/
     @media screen and (max-width: $desktop){
-      font-size: 38px
+      font-size: 24px
     }
   
     /*PHABLET*/
     @media screen and (max-width: $phablet){
-      font-size: 32px;
+      font-size: 20px;
     }
+}
+
+.hero-sub-heading{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  font-family: var(--sanserif);
+  line-height: 1.15;
+  color: var(--primary);
+  margin: 0;
+
+  /*DESKTOP*/
+  @media screen and (max-width: $desktop){
+    font-size: 15px
+  }
+
+  /*PHABLET*/
+  @media screen and (max-width: $phablet){
+    font-size: 12px;
+  }
 }
 
 .grid-button{
