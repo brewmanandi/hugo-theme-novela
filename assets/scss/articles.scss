@@ -59,7 +59,7 @@
 .hero-heading{
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 50px;
     font-family: var(--sanserif);
     line-height: 1.15;
     color: var(--primary);
@@ -67,32 +67,32 @@
   
     /*DESKTOP*/
     @media screen and (max-width: $desktop){
-      font-size: 24px
+      font-size: 35px
     }
   
     /*PHABLET*/
     @media screen and (max-width: $phablet){
-      font-size: 20px;
+      font-size: 25px;
     }
 }
 
 .hero-sub-heading{
   font-style: normal;
-  font-weight: 400;
-  font-size: 19px;
+  font-weight: 200;
+  font-size: 30px;
   font-family: var(--sanserif);
   line-height: 1.15;
   color: var(--primary);
-  margin: 0;
+  margin-top: 25px;
 
   /*DESKTOP*/
   @media screen and (max-width: $desktop){
-    font-size: 15px
+    font-size: 24px
   }
 
   /*PHABLET*/
   @media screen and (max-width: $phablet){
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 
