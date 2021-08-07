@@ -226,6 +226,7 @@ button:focus {
 }
 
 .submit-button{
+    font-size: 12px;
     color: white;
     background-color: #2036FA;
     position: absolute;
@@ -240,16 +241,10 @@ button:focus {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 161px;
+    width: 421px;
     height: 38px;
     font-weight: 600;
     letter-spacing: 0.42px;
-    -webkit-transition: border-color 0.2s var(--ease-in-out-quad),
-      background 0.2s var(--ease-in-out-quad), color 0.2s var(--ease-in-out-quad);
-    -o-transition: border-color 0.2s var(--ease-in-out-quad),
-      background 0.2s var(--ease-in-out-quad), color 0.2s var(--ease-in-out-quad);
-    transition: border-color 0.2s var(--ease-in-out-quad),
-      background 0.2s var(--ease-in-out-quad), color 0.2s var(--ease-in-out-quad);
 }
 
 .submit-button:disabled {
